@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #fff;
+    --text-color: #221314;
+    --second-color: #5a7184;
+    --main-color: #ff5e00;
+    --big-font: 6rem;
+    --h2-font: 2rem;
+    --p-font: 1.1rem;
+}
+
+
+body{
+    background: url(../img/_team/abstract2.jpg);
+    color: var(--text-color);
+}
+form{
+    width: 75%;
+    margin-top: 5%;
+    background-color: wheat;
+    padding: 10px 15%;
+    margin-left: 13%;
+    border-radius: 1rem;
+}
+.content h2{
+    letter-spacing: 0.1cm;
+    color: #ff5e00;
+    text-align: center;
+    font-size: var(--h2-font);
+}
+.content p{
+    letter-spacing: 0.05cm;
+    color: #ff5e00;
+    text-align: left;
+    font-size: var(--p-font);
+}
+div.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+div input{
+    margin-left: 10px;
+    border: none;
+    border-radius: 2rem;
+    padding: 10px 100px;
+    background: var(--bg-color);
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+div label{
+    letter-spacing: 0.08cm;
+    text-align: left;
+    color: var(--main-color);
+    font:25px sans-serif;
+    font-weight: 700;
+}
+input{
+    color: #ff5e00;
+    letter-spacing: 0.05cm;
+}
+input#contact{
+    width: 380px;
+}
+input#date{
+    width: 360px;
+}input#count{
+    width: 320px;
+}
+.page-btn{
+    background: var(--bg-color);
+    color: var(--main-color);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 20px;
+    padding: 15px 100px;
+    border-radius: 5px;
+    transition: ease .40s;
+}
+.page-btn:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    transform: scale(1.1);
+}
